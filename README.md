@@ -15,8 +15,6 @@ Kotlin + Jetpack Compose + Media3. Streamování i stahování z YouTube přes *
 3. APK k vydání: `./gradlew assembleRelease` → `app/build/outputs/apk/release/app-arm64-v8a-release.apk`
    (do GitHub Release nahrát přejmenované na `vibe.apk`).
 
-Web ke stažení (SvelteKit) je ve složce [`web/`](web/README.md).
-
 ## Funkce
 - **Hledání** přes YouTube Music (InnerTube API) – rychlé, s obaly a metadaty.
 - **Režim přehrávání** (Nastavení): *Jen streamovat* nebo *Streamovat a ukládat* (přehrané skladby se uloží offline). Kdykoli lze stáhnout ručně skladbu nebo celý playlist.
